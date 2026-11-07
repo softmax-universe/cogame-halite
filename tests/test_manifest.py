@@ -50,7 +50,7 @@ def test_the_runnable_is_a_game_on_the_compose_image():
     assert runnable["type"] == "game"
     assert runnable["image"] == IMAGE_PLACEHOLDER
     assert runnable["run"] == ["python", "-m", "cogame_halite.server"]
-    assert runnable["source_url"].startswith("https://github.com/Metta-AI/cogame-halite")
+    assert runnable["source_url"].startswith("https://github.com/softmax-universe/cogame-halite")
 
 
 def test_the_image_placeholder_is_derived_from_the_compose_service_name():
