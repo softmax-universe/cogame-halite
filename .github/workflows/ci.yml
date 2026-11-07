@@ -147,7 +147,7 @@ jobs:
   # does not build (or is missing its wasm) means every hosted replay hangs.
   # ---------------------------------------------------------------------
   wasm-viewer:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     # The bundle is EXECUTED here, not merely built, and it is executed against
     # the replay docker-smoke just produced -- hence the dependency.

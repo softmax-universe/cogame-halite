@@ -22,7 +22,7 @@
         "-m",
         "cogame_halite.server"
       ],
-      "source_url": "https://github.com/Metta-AI/cogame-halite/tree/main",
+      "source_url": "https://github.com/softmax-universe/cogame-halite/tree/main",
       "resources": {
         "requests": {
           "cpu": "1",
@@ -450,11 +450,11 @@
     "protocols": {
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-halite/blob/main/docs/PROTOCOL.md"
+        "value": "https://github.com/softmax-universe/cogame-halite/blob/main/docs/PROTOCOL.md"
       },
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-halite/blob/main/docs/PROTOCOL.md"
+        "value": "https://github.com/softmax-universe/cogame-halite/blob/main/docs/PROTOCOL.md"
       }
     },
     "docs": {
@@ -497,7 +497,7 @@
       "env": {
         "PLAYER_SCRIPTED": "tidewalker"
       },
-      "source_url": "https://github.com/Metta-AI/cogame-halite/tree/main/players",
+      "source_url": "https://github.com/softmax-universe/cogame-halite/tree/main/players",
       "resources": {
         "requests": {
           "cpu": "250m",
@@ -522,7 +522,7 @@
       "env": {
         "PLAYER_SCRIPTED": "corsair"
       },
-      "source_url": "https://github.com/Metta-AI/cogame-halite/tree/main/players",
+      "source_url": "https://github.com/softmax-universe/cogame-halite/tree/main/players",
       "resources": {
         "requests": {
           "cpu": "250m",
